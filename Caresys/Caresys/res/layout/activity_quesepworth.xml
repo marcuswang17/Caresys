@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:scrollbars="vertical" >
+
+<LinearLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Epworthintro"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/sitread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupsitread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radiositread0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiositread1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiositread2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiositread3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/watchtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupwatchtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <RadioButton
+            android:id="@+id/radiowatchtv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiowatchtv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiowatchtv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiowatchtv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/quitesit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquitesit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <RadioButton
+            android:id="@+id/radioquitesit8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radioquitesit9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radioquitesit10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radioquitesit11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sitover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupsitover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+      
+        <RadioButton
+            android:id="@+id/radiositover12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiositover13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiositover14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiositover15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGrouprest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        
+        <RadioButton
+            android:id="@+id/radiorest16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiorest17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiorest18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiorest19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/talk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ6"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGrouptalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       
+        <RadioButton
+            android:id="@+id/radiotalk20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiotalk21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiotalk22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiotalk23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+        
+    </RadioGroup>
+    <TextView
+        android:id="@+id/nodrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ7"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupnodrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        
+        <RadioButton
+            android:id="@+id/radionodrink24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radionodrink25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radionodrink26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radionodrink27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EpworthQ8"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGrouptraffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        
+        <RadioButton
+            android:id="@+id/radiotraffic28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/radiotraffic29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seldom" />
+        <RadioButton
+            android:id="@+id/radiotraffic30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sometimes" />
+        
+        <RadioButton
+            android:id="@+id/radiotraffic31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/always" />
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/buttonsend"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post" />
+
+</LinearLayout>
+</ScrollView>

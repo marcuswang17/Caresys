@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+   
+  <ImageView
+        android:id="@+id/btn_day"
+        style="@style/Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/title" />
+
+    <LinearLayout
+        android:layout_width="256dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center" >
+
+        <ImageButton
+            android:id="@+id/btn_question"
+            style="@style/Widget.AppCompat.ActionButton.Overflow"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qqq" />
+
+        <ImageButton
+            android:id="@+id/btn_set"
+            style="@style/Widget.AppCompat.ActionButton.Overflow"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sss" />
+    </LinearLayout>
+    
+	<!--
+   	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+	
+        <ImageButton
+            android:id="@+id/btn_exit"
+            style="@style/Widget.AppCompat.ActionButton.Overflow"
+            android:layout_width="79dp"
+            android:layout_height="82dp"
+            android:layout_gravity="right"
+            android:scaleType="fitCenter"
+            android:src="@drawable/exit" />
+    </LinearLayout>-->
+    
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以下為目前的環境資訊 (請耐心等候) : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+   	<TextView
+      	android:id="@+id/infomation"
+     	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+     	android:text="" />
+
+</LinearLayout>
+    
+    
+</ScrollView>

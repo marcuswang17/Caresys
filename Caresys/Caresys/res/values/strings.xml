@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Caresys</string>
+    <string name="ID">ID(病歷號碼) :</string>
+    <string name="Gender">Gender(性別) :</string>
+    <string name="Men">Men</string>
+    <string name="Women">Women</string>
+    <string name="Birth">Birth(生日) :  (格式:xxxx-xx-xx)</string>
+    <string name="post">Send</string>
+    <!-- 自我睡眠評估 -->
+    <string name="SelfestimateQ1">1.即使我晚上有很好的睡眠，我白天仍覺得愛睏</string>
+    <string name="SelfestimateQ2">2.當我睡不著時，我會非常的焦躁不安</string>
+    <string name="SelfestimateQ3">3.我經常在夜半醒來，然後就很難再入睡</string>
+    <string name="SelfestimateQ4">4.我經常要花很長的時間才能入睡</string>
+    <string name="SelfestimateQ5">5.我經常很早就醒來，然後無法再睡回籠覺</string>
+    <string name="SelfestimateQ6">6.在晚上，我常有難以控制衝動想要移動肢體，尤其是腿部</string>
+    <string name="SelfestimateQ7">7.我的腳常常會在夜裡不自主的抽動</string>
+    <string name="SelfestimateQ8">8.我有時會因為吸不到氣而醒來</string>
+    <string name="SelfestimateQ9">9.我的枕邊人常常抱怨說我的打鼾聲使他/她無法入睡</string>
+    <string name="SelfestimateQ10">10.我曾在駕駛時打瞌睡</string>
+    <!-- 自我睡眠評估 -->
+    <!-- 柏林問卷 -->
+    <string name="Berlinconti">如果您會打鼾，繼續作答第2.3.4題，否則免</string>
+    <string name="Berlincontitwo">如果您開車時會瞌睡，繼續作答第9題，否則免</string>
+    <string name="BerlinQ1">1.您睡覺時是否打鼾?</string>
+    <string name="BerlinQ2">2.您打鼾的聲量程度?</string>
+    <string name="BerlinQ3">3.您打鼾的頻率</string>
+    <string name="BerlinQ4">4.您的打鼾是否打擾到別人?</string>
+    <string name="BerlinQ5">5.在您睡眠期間,是否有人注意到您有停止呼吸的現象及其發生頻率?</string>
+    <string name="BerlinQ6">6.睡眠後,您感覺疲累的程度?</string>
+    <string name="BerlinQ7">7.當您走路時,會感到疲累嗎?</string>
+    <string name="BerlinQ8">8.當您開車時,會打盹或打瞌睡嗎?</string>
+    <string name="BerlinQ9">9.開車會打瞌睡的發生頻率如何?</string>
+    <string name="BerlinQ10">10.您有高血壓嗎?</string>
+    <!-- 柏林問卷 -->
+    <!-- 愛普沃斯嗜睡量表 -->
+    <string name="Epworthintro">說明：請圈選出您最近一段時間內，在以下不同情況中打瞌睡（不單只是感覺疲倦）的頻率，若您從未曾有過其中的一些狀況，也請盡量圈選最接近的答案：</string>
+    <string name="EpworthQ1">1.坐著閱讀時</string>
+    <string name="EpworthQ2">2.看電視時</string>
+    <string name="EpworthQ3">3.在公共場合安靜坐著(如戲院或會議中)</string>
+    <string name="EpworthQ4">4.坐車連續超過一小時(不包含自己開車)</string>
+    <string name="EpworthQ5">5.在下午躺下休息時</string>
+    <string name="EpworthQ6">6.坐著與人交談時</string>
+    <string name="EpworthQ7">7.沒有喝酒的情況下在午餐後安靜坐著時</string>
+    <string name="EpworthQ8">8.開車中遇到交通問題而停下數分鐘時</string>
+    <!-- 愛普沃斯嗜睡量表 -->
+    <!-- 匹茲堡睡眠品質量表 -->
+    <string name="PSQIintro">請你就過去一個月來的日常（大多數）的睡眠習慣回答下列問題：</string>
+    <string name="PSQIconti">假如有睡伴或室友，請你問他並繼續作答；過去一個月來，下列情形每星期約出現幾次？</string>
+    <string name="PSQIQ1">1.你通常何時上床？(格式: xx:xx 24小時制)</string>
+    <string name="PSQIQ2">2.你通常多久才能入睡？(單位: 分鐘)</string>
+    <string name="PSQIQ3">3.你早上通常何時起床？(格式: xx:xx 24小時制)</string>
+    <string name="PSQIQ4">4.你實際每晚可以入睡幾小時？(格式: xx:xx 時:分)</string>
+    <string name="PSQIQ5">5.你的睡眠出現下列困擾情形，每星期約有幾次？</string>
+    <string name="PSQIQ5_1">（1）無法在30分鐘內入睡</string>
+    <string name="PSQIQ5_2">（2）半夜或凌晨便清醒</string>
+    <string name="PSQIQ5_3">（3）必須起來上廁所</string>
+    <string name="PSQIQ5_4">（4）覺得呼吸不順暢</string>
+    <string name="PSQIQ5_5">（5）大聲打鼾或咳嗽</string>
+    <string name="PSQIQ5_6">（6）會覺得冷</string>
+    <string name="PSQIQ5_7">（7）覺得躁熱</string>
+    <string name="PSQIQ5_8">（8）作惡夢</string>
+    <string name="PSQIQ5_9">（9）身上有疼痛</string>
+    <string name="PSQIQ5_10">（10）其他，請說明</string>
+    <string name="PSQIQ6">6.你覺得自己的睡眠品質如何？</string>
+    <string name="PSQIQ7">7.你通常一星期幾個晚上需要使用藥物幫忙睡眠？</string>
+    <string name="PSQIQ8">8.你是否曾在用餐、開車或社交場合瞌睡而無法保持清醒，每星期約幾次？</string>
+    <string name="PSQIQ9">9.你會感到無心完成該做的事?</string>
+    <string name="PSQIQ10">10.你有睡伴和室友嗎？</string>
+    <string name="PSQIQ10_1">（1）大聲打鼾</string>
+    <string name="PSQIQ10_2">（2）入睡中出現一陣子停止呼吸現象</string>
+    <string name="PSQIQ10_3">（3）入睡中出現腳（包括腿部）抽動或顫動現象</string>
+    <string name="PSQIQ10_4">（4）夜間起來出現意識混亂或人時地分不清楚現象</string>
+    <string name="PSQIQ10_5">（5）其他入睡中的躁動與不安情形，請說明</string>
+    <!-- 匹茲堡睡眠品質量表 -->
+    <!-- 選項 -->
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="unknown">不知道</string>
+    <string name="never">從未</string>
+    <string name="seldom">很少</string>
+    <string name="sometimes">一半以上</string>
+    <string name="always">幾乎都會</string>
+    <string name="alwaysday">幾乎每天</string>
+    <string name="alwaysweek12">每週1~2次</string>
+    <string name="alwaysweek34">每週3~4次</string>
+    <string name="alwaysmonth">每月1~2次</string>
+    <string name="morethan">比呼吸聲稍微大聲一點</string>
+    <string name="almost">跟講話聲差不多</string>
+    <string name="louder">比講話聲還大</string>
+    <string name="veryloud">非常大聲,連隔壁房間都聽得到</string>
+    <string name="neverhappen">從未發生</string>
+    <string name="notone">不到一次</string>
+    <string name="onetwo">約1~2次</string>
+    <string name="overthree">3~4次以上</string>
+    <string name="nono">沒有</string>
+    <string name="alittle">有一點</string>
+    <string name="exact">的確有</string>
+    <string name="serious">很嚴重</string>
+    <string name="nononono">沒有睡伴或室友</string>
+    <string name="nonono">睡伴或室友不同臥房</string>
+    <string name="sameno">睡伴同室友不同床</string>
+    <string name="same">睡伴或室友同床</string>
+    <string name="great">很好</string>
+    <string name="better">還不錯</string>
+    <string name="soso">差了一點</string>
+    <string name="bad">很差</string>
+    <!-- 選項 -->
+
+    <string name="title_activity_alarm_dialog_repeat">AlarmDialogRepeat</string>
+    <!-- 環境通知 -->
+    <string name="ask">請問是否開啟環境資訊提醒?</string>
+    <string name="notify">小提醒： 若開啟環境資訊提醒，可能需要額外支出數據傳輸費用 ，若要關閉環境資訊提醒 ，請前往設定頁面將其關閉</string>
+    <string name="start">開啟</string>
+    <string name="stop">關閉</string>
+    <string name="title_activity_choose_disease">ChooseDisease</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_copd">COPD</string>
+    <string name="title_activity_ques_copdsgrq">QuesCOPDSGRQ</string>
+    <string name="title_activity_ques_cat">QuesCAT</string>
+
+</resources>

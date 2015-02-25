@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+   	 	
+   	 	<TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioquestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+        <RadioButton
+            android:id="@+id/radioquestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/conti1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Berlinconti"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/morethan" />
+
+        <RadioButton
+            android:id="@+id/radioquestion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/almost" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/louder" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/veryloud" />
+     
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysday" />
+
+        <RadioButton
+            android:id="@+id/radioquestion9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek12" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek34" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysmonth" />
+        
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioquestion14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysday" />
+
+        <RadioButton
+            android:id="@+id/radioquestion17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek12" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek34" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysmonth" />
+                
+        <RadioButton
+            android:id="@+id/radioquestion20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ6"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysday" />
+
+        <RadioButton
+            android:id="@+id/radioquestion22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek12" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek34" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysmonth" />
+                
+        <RadioButton
+            android:id="@+id/radioquestion25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+        
+    </RadioGroup>
+    <TextView
+        android:id="@+id/question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ7"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysday" />
+
+        <RadioButton
+            android:id="@+id/radioquestion27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek12" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek34" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysmonth" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/never" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/question8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ8"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioquestion32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/conti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Berlincontitwo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/question9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ9"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysday" />
+
+        <RadioButton
+            android:id="@+id/radioquestion34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek12" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysweek34" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alwaysmonth" />
+        
+    </RadioGroup>
+    <TextView
+        android:id="@+id/question10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BerlinQ10"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupquestion10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioquestion38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioquestion39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+        
+        <RadioButton
+            android:id="@+id/radioquestion40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonpost"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post" />
+        
+    </LinearLayout>
+    
+</ScrollView>

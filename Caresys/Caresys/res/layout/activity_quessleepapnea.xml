@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_everyday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="每天輸入:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Button
+	    android:id="@+id/btn_quesgoodsleeplive"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="好眠居" />
+
+	<TextView
+	    android:id="@+id/tv_every2weeks"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="每兩周輸入"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Button
+	    android:id="@+id/btn_queslcq"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="LCQ 咳嗽問卷" />
+
+	<TextView
+	    android:id="@+id/tv_everymonth"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="每月輸入"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Button
+	    android:id="@+id/btn_quespsqi"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="匹茲堡睡眠品質量表" />
+
+	<Button
+	    android:id="@+id/btn_quesepworth"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="愛普沃斯嗜睡量表" />
+
+	<Button
+	    android:id="@+id/btn_quesberlin"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="柏林問卷" />
+
+	<Button
+	    android:id="@+id/btn_quesnnesq"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="NNES-Q" />
+
+	<TextView
+	    android:id="@+id/tv_onlyfirsttime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="僅輸入一次"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Button
+	    android:id="@+id/btn_quesselfestimate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="睡眠自我評估" />
+
+</LinearLayout>

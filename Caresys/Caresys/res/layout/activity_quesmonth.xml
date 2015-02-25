@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.face.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/ques" />
+        
+         <ImageButton
+        android:id="@+id/btn_psqi"
+        style="@style/Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ques3" />
+
+     <ImageButton
+         android:id="@+id/btn_epworth"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:scaleType="centerInside"
+         android:src="@drawable/ques4" />
+
+     <ImageButton
+         android:id="@+id/btn_berlin"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:scaleType="centerInside"
+         android:src="@drawable/ques5" />
+
+     <ImageButton
+         android:id="@+id/btn_nnesq"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:scaleType="centerInside"
+         android:src="@drawable/ques6" />
+     
+      <ImageButton
+          android:id="@+id/btn_re_month"
+          style="@style/Widget.AppCompat.ActionButton.Overflow"
+          android:layout_width="100dp"
+          android:layout_height="78dp"
+          android:layout_gravity="right"
+          android:scaleType="centerInside"
+          android:src="@drawable/home1" />
+
+    </LinearLayout>
+
+</ScrollView>

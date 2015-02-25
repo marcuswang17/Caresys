@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caresys"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Menu_v1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sport"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Sleep"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Setting_v1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Disease_v1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesSleepApnea"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesSelfEstimate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesEpworth"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesBerlin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesPSQI"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesGoodSleepLive"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesLCQ"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesNNESQ"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesMonth"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LineSport"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LineSleep"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AlarmDialog_Sleep"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AlarmDialog_Sport"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AlarmDialog_Sporttime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AlarmDialog_Wakeup"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ChooseDisease"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".COPD"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesCOPDSGRQ"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".QuesCAT"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name=".SleepService"
+            android:enabled="true"
+            android:process="com.caresys.SleepService" >
+        </service>
+        <service
+            android:name=".SportService"
+            android:enabled="true"
+            android:process="com.caresys.SportService" >
+        </service>
+        <service
+            android:name=".background"
+            android:enabled="true"
+            android:process="com.caresys.background" >
+        </service>
+
+        <receiver android:name=".AlarmReceiver" >
+            <intent-filter>
+                <action android:name="alarm" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

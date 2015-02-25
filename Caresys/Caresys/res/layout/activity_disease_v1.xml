@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.face.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        style="@style/Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:scaleType="center"
+        android:src="@drawable/ques" />
+    
+    <ImageButton
+        android:id="@+id/btn_day"
+        style="@style/Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/day" />
+
+     <ImageButton
+         android:id="@+id/btn_twoweek"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="280dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:scaleType="centerInside"
+         android:src="@drawable/twoweek" />
+
+     <ImageButton
+         android:id="@+id/btn_month"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="280dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1"
+         android:scaleType="centerInside"
+         android:src="@drawable/month" />
+
+     <ImageButton
+         android:id="@+id/btn_re_disease"
+         style="@style/Widget.AppCompat.ActionButton.Overflow"
+         android:layout_width="100dp"
+         android:layout_height="64dp"
+         android:layout_gravity="right"
+         android:layout_weight="2.06"
+         android:scaleType="centerInside"
+         android:src="@drawable/home1" />
+
+</LinearLayout>
